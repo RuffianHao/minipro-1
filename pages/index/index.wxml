@@ -1,0 +1,112 @@
+<!--index.wxml-->
+<view class="home-container">
+
+  <!-- //轮播图 -->
+  <swiper indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" indicator-color="{{swiper.indicatorColor}}" indicator-active-color="{{swiper.indicatorActiveColor}}" circular="{{swiper.circular}}">
+    <block>
+      <swiper-item wx:for="{{swiper.background}}" wx:key="*this">
+        <image src="/static/uploads/{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 轮播图 -->
+
+  <!-- 活动区 -->
+  <view class="activity">
+
+    <!-- 标题 -->
+    <view class="title">
+      乐园活动
+    </view>
+    <!-- 标题 -->
+
+    <!-- 封面 -->
+    <view class="item">
+      <navigator>
+        <image src="/static/uploads/item_1.png"></image>
+      </navigator>
+
+      <!-- 信息 -->
+      <view class="info">
+
+        <!-- 名称 -->
+        <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+        <!-- 名称 -->
+
+        <!-- 其他 -->
+        <view class="extra">
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+        </view>
+        <!-- 其他 -->
+
+        <!-- 状态 -->
+        <text class="status">免费</text>
+        <!-- 状态 -->
+
+      </view>
+      <!-- 信息 -->
+    </view>
+
+     <view class="item">
+      <navigator>
+        <image src="/static/uploads/item_2.png"></image>
+      </navigator>
+
+      <!-- 信息 -->
+      <view class="info">
+
+        <!-- 名称 -->
+        <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+        <!-- 名称 -->
+
+        <!-- 其他 -->
+        <view class="extra">
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+        </view>
+        <!-- 其他 -->
+
+        <!-- 状态 -->
+        <text class="status">免费</text>
+        <!-- 状态 -->
+
+      </view>
+      <!-- 信息 -->
+    </view>
+
+     <view class="item">
+      <navigator>
+        <image src="/static/uploads/item_3.png"></image>
+      </navigator>
+
+      <!-- 信息 -->
+      <view class="info">
+
+        <!-- 名称 -->
+        <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+        <!-- 名称 -->
+
+        <!-- 其他 -->
+        <view class="extra">
+          <text>200人已报名</text>
+          <text>本周六开始</text>
+        </view>
+        <!-- 其他 -->
+
+        <!-- 状态 -->
+        <text class="status">免费</text>
+        <!-- 状态 -->
+
+      </view>
+      <!-- 信息 -->
+    </view>
+    <!-- 封面 -->
+
+
+
+
+
+  </view>
+  <!-- 活动区 -->
+</view>
